@@ -10,7 +10,17 @@ public class BookWriteModel {
     private int yearNum;
     private String serialNum;
     private int inStockNum;
+
     
+    
+    public BookWriteModel(String title, String genre, int yearNum, String serialNum, int inStockNum) {
+        this.title = title;
+        this.genre = genre;
+        this.yearNum = yearNum;
+        this.serialNum = serialNum;
+        this.inStockNum = inStockNum;
+    }
+
     public String getTitle() {
         return title;
     }

@@ -6,9 +6,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import io.github.michal.library_app.logic.BookService;
-import io.github.michal.library_app.model.dtos.BookReadModel;
-import io.github.michal.library_app.model.dtos.BookWriteModel;
+import io.github.michal.library_app.application.BookService;
+import io.github.michal.library_app.contract.BookReadModel;
+import io.github.michal.library_app.contract.BookWriteModel;
 
 @RestController
 @RequestMapping("/books")

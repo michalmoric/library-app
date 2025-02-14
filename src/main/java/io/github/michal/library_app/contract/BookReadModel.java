@@ -1,7 +1,7 @@
-package io.github.michal.library_app.model.dtos;
+package io.github.michal.library_app.contract;
 
 
-import io.github.michal.library_app.model.Book;
+import io.github.michal.library_app.domain.model.Book;
 
 public class BookReadModel {
     private String title;

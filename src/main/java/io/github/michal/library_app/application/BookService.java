@@ -1,11 +1,11 @@
-package io.github.michal.library_app.logic;
+package io.github.michal.library_app.application;
 
 import org.springframework.stereotype.Service;
 
-import io.github.michal.library_app.Repositories.BookRepository;
-import io.github.michal.library_app.model.Book;
-import io.github.michal.library_app.model.dtos.BookReadModel;
-import io.github.michal.library_app.model.dtos.BookWriteModel;
+import io.github.michal.library_app.contract.BookReadModel;
+import io.github.michal.library_app.contract.BookWriteModel;
+import io.github.michal.library_app.domain.model.Book;
+import io.github.michal.library_app.domain.repositories.BookRepository;
 
 @Service
 public class BookService {

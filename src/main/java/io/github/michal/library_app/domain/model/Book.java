@@ -1,4 +1,4 @@
-package io.github.michal.library_app.model;
+package io.github.michal.library_app.domain.model;
 
 
 import jakarta.persistence.*;
